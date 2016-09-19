@@ -1,11 +1,13 @@
 class Fixnum
 
   def fizzbuzz
-    if self == 3
+    if self % 3 == 0
       "fizz"
-    else
+    elsif self == 5
       "buzz"
+    else
+      self
     end
   end
-  
+
 end
